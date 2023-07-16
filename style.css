@@ -1,0 +1,275 @@
+/* CSS Reset By Coco */
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #6a26cd;
+}
+
+a:hover {
+    color: #431488;
+}
+
+a:active {
+    color: #6a26cd;
+}
+
+a:visited {
+    color: #6a26cd;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+ul,
+ol {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: middle;
+}
+
+/* End Css Reset */
+
+
+
+.header-left ul  {
+   display: flex; 
+   list-style: none;
+   align-items: center;
+}
+
+.header-left ul li {
+margin-left: 15px;
+font-size: 18px;
+
+}
+
+.header-right {
+   display: flex;
+   align-items: center;
+}
+
+.input-header input {
+   border: none;
+   border-bottom: #ffffff solid 2px;
+   background-color: #1d1daa;
+   color: #ffffff;
+   padding-bottom: 5px;
+}
+
+.input-header input::placeholder {
+   color: #ffffff;
+}
+
+.input-header input:focus {
+   outline: none;
+}
+
+.header {
+   display: flex;
+   justify-content: space-around;
+   background-color: #1d1daa;
+   color: white;
+}
+
+.title-header {
+   margin-left:10px ;
+}
+
+
+.text p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 8px;
+}
+
+.main-box {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+}
+
+.detail-item {
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    border:black 1px solid ;
+}
+
+.icon-item {
+    margin-top: 33px;
+}
+
+.name-product {
+    background-color: #322828;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.name-product h1 {
+border-bottom: yellow solid 5px;
+font-weight: 600;
+padding: 10px 0 ;
+}
+
+.itemA {
+    padding-left: 6px !important; 
+    padding-right: 6px !important;
+}
+
+.itemB {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+}
+
+.main-prodcuct {
+    background-color:#322828 ;
+    border-right:#322828 solid 8px;
+}
+
+.detail-itemB {
+    background-color: #ffffff;
+    padding-bottom: 35px;
+    border-right:#322828 solid 8px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.button button {
+    padding: 10px 20px;
+}
+
+.name {
+    color: #6a26cd;
+    padding-bottom: 10px;
+    border-bottom:blue solid 4px ;
+    width: max-content;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img-fish {
+    margin-bottom: 12px;
+}
+
+.img-huy {
+    width: 19% ;
+    margin-top: 20px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.name-2 {
+    color: #214dfd;
+    padding-bottom: 10px;
+    border-bottom:yellow solid 4px ;
+    width: max-content;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.name-danh-muc {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-main {
+    display: flex;
+}
+
+.btn-xem-tat-ca {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.btn-xem-tat-ca button {
+    padding: 10px 70px;
+    font-size: 20px;
+    border: #d46666 solid 2px ;
+    background-color: white;
+}
+
+.item-the-thao {
+    margin-bottom: 24px;
+}
+
+.main-the-thao {
+    align-items: center;
+    justify-content: center;
+}
+
+.item-xa-kho-hang {
+    margin-bottom: 15px;
+}
+
+.title-sport {
+    color: #000000;
+    border-bottom:#6e0909 solid 6px;
+    width: max-content;
+    margin-top:30px 0 ;
+}
+
+.footer {
+    background-color: #0c2278;
+}
+
+.main-footer {
+    padding: 50px 0;
+}
+
+.item-footer {
+    color: white;
+}
+
+.item-footer p {
+    font-size: 20px !important;
+}
+
+.item-footer h1 {
+    font-size: 25px !important;
+}
